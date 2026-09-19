@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // September = month 8 in JavaScript
   const UNLOCK_DATE = new Date(2026, 8, 20, 0, 0, 0);
 
+   
   const reduceMotion =
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
